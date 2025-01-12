@@ -1,0 +1,198 @@
+.weather{
+    margin: 20px;
+    padding: 20px;
+}
+
+.searchbar{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar input{
+    margin: 10px;
+    width: 70%;
+    height: 50px;
+    padding: 15px 20px;
+
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 25px;
+    margin-right: 15px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.searchbar input:focus{
+    background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.3);
+}
+
+.searchbar img{
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.searchbar img:hover{
+    transform: scale(1.3);
+    background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.3);
+}
+
+.weather-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.weather-details{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    margin-left: 120px;
+    background-color: rgb(255, 255, 255, 0.15);
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0  4px 6px rgb(0, 0, 0, 0.2);
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 50%;
+}
+
+.icon-temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-temp img{
+    width: 200px;
+    height: 200px;
+}
+
+.description{
+    font-size: 20px;
+    color: #fff;
+}
+
+.temperature-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.temperature{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.divider{
+    width: 2px;
+    height: 240px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.location-date{
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    margin-left: 150px;
+}
+
+.location{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}   
+
+.location-icon{
+    color: red;
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.date{
+    font-size: 18px;
+    margin-left: 60px;
+    color: #ccc;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    gap: 20px;
+    margin-left: 80px;
+}
+
+.weather-stat {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    width: 65%;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2); 
+/*   border-bottom: 2px solid #ccc; */
+}
+
+.weather-stat span{
+    font-size: 15px;
+    color: #fff;
+}
+
+.weather-stat img {
+    width: 35px;
+    height: 35px;
+    filter: brightness(0) invert(1);
+}
+
+.weather-stat p{
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+
+.sunrise-sunset {
+    display: flex;
+    align-items: center;
+}
+
+.sunrise-sunset div {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.sunrise-sunset p {
+    margin: 0 0 0 10px;
+}
